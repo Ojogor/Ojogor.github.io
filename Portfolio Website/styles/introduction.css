@@ -1,0 +1,146 @@
+.header-text, #typedtext{
+    font-size: 35px;
+    font-weight: 700;
+    min-width: 20vw;
+}
+#typedtext, .languages-section{
+    margin-top: 12vh;
+}
+
+
+.introduction-part{
+    display: flex;
+    margin-top: 17vh;
+ 
+}
+.about-me-description{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-right: 15vw;
+  
+}
+
+.body-text, .text_bubble{
+    font-size: 19px;
+    word-spacing: 2px;
+    line-height: 3.5vh;
+}
+.text_bubble{
+    font-size: 14px;
+    font-weight: 700;
+}
+.body-text:hover{
+    transform: translateY(5px);
+}
+
+.resume-download-button{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    padding-top: 1.2vh;
+    padding-bottom: 1.2vh;
+    border-radius: 4px;
+    transition: opacity 0.7s;
+}
+
+
+
+
+.resume-download-button:active{
+    transform: translateY(5px);
+}
+.resume-download-button:hover{
+    transform: translateY(-5px);
+}
+
+.languages-section{
+    display: flex;
+    flex-direction: column;
+    padding-right: 5%;
+   
+
+    gap: 2rem;
+}
+#languages{
+    opacity: 0;
+    transition: opacity 4.8s;
+}
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+    gap:3rem;
+}
+.language-logo{
+    block-size: 5rem;
+    max-block-size: 8vmax;
+}
+.language-logo:hover{
+    
+    animation: shake 0.5s;
+  
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+
+#language-header-text:hover{
+    transform: translateY(5px);
+};
+.introduction-part{
+    display: flex;
+    margin-top: 20vh;
+}
+#introduction-page{
+    display: flex;
+    flex-direction: column;
+}
+.pet-crocodile{
+    margin-top: 0px;
+    max-height: 10rem;
+    
+}
+.pet-crocodile:active{
+
+}
+#typedtext:hover{
+    transform: translateY(5px);
+}
+.crocodile{
+    padding-top: 8vh;
+    display: flex;
+}
+.text_bubble{
+    color: black;
+    text-align: center;
+    
+}
+.text-bubble-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    opacity: 0.9;
+    border-radius: 4px;
+    
+
+}
+
+.pet-crocodile:active{
+    transform: translateY(5px);
+    transform: translateX(-4rem);
+}

@@ -1,0 +1,47 @@
+
+.projects-title{
+    padding-bottom: 8vh;
+    padding-left:40vw;
+  
+    
+}
+.projects-title, .project-title,.project-description{
+    color:black;
+}
+.project-detail{
+    display: flex;
+    flex-direction: column;
+}
+.project{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    
+}
+.project1{
+    padding-left: 5%;
+    padding-top:10vh;
+    padding-right: 5%;
+    padding-bottom: 5%;
+
+}
+.project1-image{
+    max-height: 40vh;
+    padding-left:15vw;
+
+}
+
+.project-title{
+    font-size: 2.5vh;
+    font-weight: 700;
+    min-width: 20vw;
+    padding-bottom: 3vh;
+
+}
+
+.project-description{
+    font-size: 2vh;
+    word-spacing: 2px;
+    line-height: 3.5vh;
+}
+
